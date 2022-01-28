@@ -25,7 +25,7 @@ function TimeUpdate() {
 }
 setInterval(TimeUpdate, 1000);
 
-var presentTime = moment().format("H");
+var currentTime = moment().format("H");
 var time9 = 9;
 var time10 = 10;
 var time11 = 11;
